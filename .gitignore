@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+
+# Operating System files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# IDE files
+.vscode/
+.idea/
+
+# Build & Output
+/.next/            # Next.js build output
+/build/            # Build directory (for other frameworks, like React)
+dist/
+out/
+
+# Coverage reports
+coverage/
+
+# Misc
+*.bak              # Backup files
+*.swp              # Temporary files (from editors like Vim)
+
+
+# Redis data files
+dump.rdb           # Redis database dump file (if you have one locally)
+
+# OpenAI API key and other sensitive credentials
+OPENAI_API_KEY
+
+# Next.js build directory
+.next/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
